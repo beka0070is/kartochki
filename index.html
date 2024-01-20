@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        height: 790px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 650px;
+        height: 650px;
+        /* border: 2px solid; */
+        display: flex;
+    }
+
+    .container1{
+        border-radius: 30px;
+        /* border: 3px solid blue; */
+    }
+
+
+    /* 1ряд */
+    .a{
+        width: 200px;
+        height: 170px;
+        border: 3px solid rgb(0, 229, 254);
+        background-color: transparent;
+        margin: 0 0 10px 0;
+        border-radius: 10px;
+        transition: .3s;
+    }
+
+    .a:hover{
+        transition: .3s;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 5px rgb(0, 229, 254);
+    }
+
+    .span{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-bottom: 3px solid rgb(0, 229, 254);
+        color: rgb(0, 229, 254);
+        font-size: 19px;
+        padding: 10px 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(173, 253, 253, 0.635);
+        border-radius: 5px 5px 0 0;
+    }
+
+    .img{
+        font-size: 50px;
+        color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .img1{
+        font-size: 50px;
+        transform: rotate(340deg);
+        color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .img4{
+        font-size: 50px;
+        transform: rotate(20deg);
+        color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: 20px;
+        color: rgb(0, 229, 254);
+    }
+
+
+    /* 2ряд */
+    .a2{
+        width: 200px;
+        height: 170px;
+        border: 3px solid rgb(253, 211, 3);
+        background-color: transparent;
+        margin: 0 0 10px 0;
+        border-radius: 10px;
+        transition: .3s;
+    }
+    .a2:hover{
+        transition: .3s;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 5px rgb(253, 211, 3);
+    }
+    .span2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-bottom: 3px solid rgb(253, 211, 3);
+        color: rgb(253, 211, 3);
+        font-size: 19px;
+        padding: 10px 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(247, 243, 125, 0.41);
+        border-radius: 5px 5px 0 0;
+    }
+
+    .img2{
+        font-size: 50px;
+        color: rgb(253, 211, 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: 20px;
+        color: rgb(253, 211, 3);
+    }
+
+
+
+    /* 3ряд */
+    .a3{
+        width: 200px;
+        height: 170px;
+        border: 3px solid rgb(247, 125, 164);
+        background-color: transparent;
+        margin: 0 10px 10px 0;
+        border-radius: 10px;
+        transition: .3s;
+    }
+    .a3:hover{
+        transition: .3s;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 5px rgb(247, 125, 164);
+    }
+    .span3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-bottom: 3px solid rgb(247, 125, 164);
+        color: rgb(247, 125, 164);
+        font-size: 19px;
+        padding: 10px 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(247, 125, 164, 0.439);
+        border-radius: 5px 5px 0 0;
+    }
+
+    .img3{
+        font-size: 50px;
+        color: rgb(247, 125, 164);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: 20px;
+        color: rgb(247, 125, 164);
+    }
+    
+
+    @media(max-width: 500px) {
+        .container{
+            width: 250px;
+            height: 500px;
+        }
+    }
+
+</style>
+
+<body>
+    <script src="./script.js"></script>
+</body>
+</html>
